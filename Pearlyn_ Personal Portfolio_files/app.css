@@ -118,6 +118,8 @@ STYLESHEET INDEXING
 /*-------------------------
     Reset Styels
 -------------------------*/
+
+  
 a {
     display: inline-block;
     text-decoration: none;
@@ -715,6 +717,7 @@ input {
 -------------------------*/
 .breadcrum-area {
     background: var(--gradient-primary);
+    background-image: url(Portfolio\ Background.svg);
     padding: 200px 0 100px;
     margin-top: -160px;
     position: relative;
@@ -3939,7 +3942,7 @@ Pagination
 }
 
 .contact-info .phone-number {
-    font-size: 48px;
+    font-size: 40px;
     color: var(--color-accent2);
     margin-bottom: 0;
 }
@@ -7606,6 +7609,8 @@ body.op-modal-open {
     margin-right: 0;
 }
 
+
+
 .header-action .sidemenu-btn .btn-wrap {
     height: 60px;
     width: 60px;
@@ -9708,6 +9713,10 @@ body.op-modal-open {
 
 .active-dark-mode .axil-header.header-style-3 .header-action .social-icon-list li a {
     color: var(--dark-body-text);
+}
+
+.axil-header.header-style-3 .header-action .social-icon-list li a.active {
+    color: var(--color-primary);
 }
 
 .active-dark-mode .axil-header.header-style-4 .mainmenu-nav .mainmenu li a {
