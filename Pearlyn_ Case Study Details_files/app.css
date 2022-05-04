@@ -1317,8 +1317,8 @@ Pagination
     margin: 0 0 30px;
 }
 
-.heading-left p + p {
-    margin: 0 0 40px;
+.heading-left .test {
+    margin: 0 0 10px;
 }
 
 .shape-group-1 .shape {
