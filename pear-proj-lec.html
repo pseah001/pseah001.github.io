@@ -8,25 +8,26 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="./Pearlyn_ Personal Portfolio_files/favicon.png">
-    <link rel="stylesheet" href="./Pearlyn_ Personal Portfolio_files/bootstrap.min.css">
-    <link href="./Pearlyn_ Personal Portfolio_files/fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="./Pearlyn_ Personal Portfolio_files/slick.css">
-    <link rel="stylesheet" href="./Pearlyn_ Personal Portfolio_files/slick-theme.css">
-    <link rel="stylesheet" href="./Pearlyn_ Personal Portfolio_files/sal.css">
-    <link rel="stylesheet" href="./Pearlyn_ Personal Portfolio_files/magnific-popup.css">
-    <link rel="stylesheet" href="./Pearlyn_ Personal Portfolio_files/green-audio-player.min.css">
-    <link rel="stylesheet" href="./Pearlyn_ Personal Portfolio_files/odometer-theme-default.css">
-    <!-- Site Stylesheet -->
-    <link rel="stylesheet" href="./Pearlyn_ Personal Portfolio_files/app.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/media/favicon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="assets/media/font-awesome.css"> -->
+    <link href="assets/css/fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/sal.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/green-audio-player.min.css">
+    <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
 
+    <!-- Site Stylesheet -->
+    <link rel="stylesheet" href="assets/css/app.css">
 </head>
 
-<body class="sticky-header">
+<body class="sticky-header onepage-template">
     <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   	<![endif]-->
-    <a href="https://new.axilthemes.com/demo/template/Pearlyn/single-case-study.html#main-wrapper" id="backto-top" class="back-to-top">
+    <a href="" id="backto-top" class="back-to-top">
         <i class="far fa-solid fa-arrow-up"></i>
     </a>
 
@@ -49,9 +50,21 @@
         </ul>
     </div>
 
+    <!-- Portfolio Modal Box -->
+    <div class="op-portfolio-modal op-modal-wrap">
+        <div class="op-modal-inner">
+            <button class="close"><i class="fa fa-times"></i></button>
+            <div class="op-modal-content">
+                <div class="portfolio-thumbnail"></div>
+                <div class="portfolio-content"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal Box -->
+
     <div id="main-wrapper" class="main-wrapper">
 
-       <!--=====================================-->
+        <!--=====================================-->
         <!--=        Header Area Start       	=-->
         <!--=====================================-->
         <header class="header axil-header header-style-1">
@@ -60,9 +73,9 @@
                 <div class="container">
                     <div class="header-navbar">
                         <div class="header-logo">
-                            <a href="./index.html"><img class="light-version-logo" src="./Pearlyn_ Personal Portfolio_files/light.svg" alt="logo"></a>
-                            <a href="./index.html"><img class="dark-version-logo" src="./Pearlyn_ Personal Portfolio_files/dark.svg" alt="logo"></a>
-                            <a href="./index.html"><img class="sticky-logo" src="./Pearlyn_ Personal Portfolio_files/sticky.svg" alt="logo"></a>
+                            <a href="index.html"><img class="light-version-logo" src="assets/media/light.svg" alt="logo"></a>
+                            <a href="index.html"><img class="dark-version-logo" src="assets/media/dark.svg" alt="logo"></a>
+                            <a href="index.html"><img class="sticky-logo" src="assets/media/sticky.svg" alt="logo"></a>
                         </div>
                         <div class="header-main-nav">
                             <!-- Start Mainmanu Nav -->
@@ -71,19 +84,18 @@
                                     <div class="mobile-nav-header">
                                         <div class="mobile-nav-logo">
                                             <a href="">
-                                                <img class="light-mode"  src="./Pearlyn_ Personal Portfolio_files/light.svg" alt="Site Logo"></a>
-                                                <img class="dark-mode" src="./Pearlyn_ Personal Portfolio_files/dark.svg" alt="Site Logo"></a>
+                                                <img class="light-mode"  src="assets/media/light.svg" alt="Site Logo"></a>
+                                                <img class="dark-mode" src="assets/media/dark.svg" alt="Site Logo"></a>
                                             </a>
                                         </div>
                                         <button class="mobile-menu-close" data-bs-dismiss="offcanvas"><i class="fas fa-times"></i></button>
                                     </div>
                                 </div>
                                 <ul class="mainmenu">
-                                    <li><a href="./index.html" class="active">Works</a></li>
-                                    <li><a href="./illustrations.html">Illustrations</a></li>
-                                    <li><a href="./about.html">About</a></li>
-                                    <li><a href="./Pearlyn _ Contact.html">Contact</a></li>
-                                    <li><a href="https://www.linkedin.com/in/pearlynseahhuqin/"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="" class="active">UI/UX Works</a></li>
+                                    <li><a href="pear-illustrations.html">Illustrations</a></li>
+                                    <li><a href="pear-about.html">About</a></li>
+                                    <li><a href="https://www.linkedin.com/in/pearlynseahhuqin/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
                                     <li><a href="mailto: pseah001@gmail.com"><i class="fa fa-envelope"></i></a></li>
                                 </ul>
                             </nav>
@@ -91,13 +103,6 @@
                         </div>
                         <div class="header-action">
                             <ul class="list-unstyled">
-                                <!-- <li class="sidemenu-btn d-lg-block d-none">
-                                    <button class="btn-wrap" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuRight">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                    </button>
-                                </li> -->
                                 <li class="mobile-menu-btn sidemenu-btn d-lg-none d-block">
                                     <button class="btn-wrap" data-bs-toggle="offcanvas" data-bs-target="#mobilemenu-popup">
                                         <span></span>
@@ -141,7 +146,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="banner-thumbnail sal-animate" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
-                            <img class="paralax-image" src="./Pearlyn_ Personal Portfolio_files/LEC-cover.png" alt="Illustration" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg);">
+                            <img class="paralax-image" src="assets/media/LEC-cover.png" alt="Illustration" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg);">
                         </div>
                     </div>
                     <div class="case-study-counterup">
@@ -179,13 +184,13 @@
             </div>
             <ul class="shape-group-8 list-unstyled">
                 <li class="shape shape-1 sal-animate" data-sal="slide-right" data-sal-duration="500" data-sal-delay="100">
-                    <img src="./Pearlyn_ Case Study Details_files/bubble-9.png" alt="Bubble">
+                    <img src="assets/media/bubble-9.png" alt="Bubble">
                 </li>
                 <li class="shape shape-2 sal-animate" data-sal="slide-left" data-sal-duration="500" data-sal-delay="200">
-                    <img src="./Pearlyn_ Case Study Details_files/bubble-20.png" alt="Bubble">
+                    <img src="assets/media/bubble-20.png" alt="Bubble">
                 </li>
                 <li class="shape shape-3 sal-animate" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300">
-                    <img src="./Pearlyn_ Case Study Details_files/line-4.png" alt="Line">
+                    <img src="assets/media/line-4.png" alt="Line">
                 </li>
             </ul>
         </div>
@@ -203,7 +208,7 @@
                 </div>
                 <div class="process-work sal-animate" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="100">
                     <div class="thumbnail paralax-image" style="will-change: transform;">
-                        <!-- <img src="./Pearlyn_ Case Study Details_files/process-1.png" alt="Thumbnail"> -->
+                        <!-- <img src="assets/media/process-1.png" alt="Thumbnail"> -->
                     </div>
                     <div class="content">
                         <span class="subtitle">Pain point one</span>
@@ -222,7 +227,7 @@
                 </div>
                 <div class="process-work content-reverse sal-animate" data-sal="slide-left" data-sal-duration="1000" data-sal-delay="100">
                     <div class="thumbnail paralax-image">
-                        <!-- <img src="./Pearlyn_ Case Study Details_files/process-2.png" alt="Thumbnail"> -->
+                        <!-- <img src="assets/media/process-2.png" alt="Thumbnail"> -->
                     </div>
                       <div class="content">
                         <span class="subtitle">Pain point two</span>
@@ -238,7 +243,7 @@
                 </div>
                 <div class="process-work sal-animate" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="100">
                     <div class="thumbnail paralax-image" style="will-change: transform;">
-                        <!-- <img src="./Pearlyn_ Case Study Details_files/process-1.png" alt="Thumbnail"> -->
+                        <!-- <img src="assets/media/process-1.png" alt="Thumbnail"> -->
                     </div>
                     <!-- <div class="content">
                         <span class="subtitle">Pain point three</span>
@@ -254,7 +259,7 @@
                 </div>
                 <div class="process-work content-reverse sal-animate" data-sal="slide-left" data-sal-duration="1000" data-sal-delay="100">
                     <div class="thumbnail paralax-image">
-                        <img src="./Pearlyn_ Case Study Details_files/process-2.png" alt="Thumbnail">
+                        <img src="assets/media/process-2.png" alt="Thumbnail">
                     </div>
                       <div class="content">
                         <span class="subtitle">Pain point four</span>
@@ -271,7 +276,7 @@
                 
                 <!-- <div class="process-work" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="100">
                     <div class="thumbnail paralax-image">
-                        <img src="./Pearlyn_ Case Study Details_files/process-3.png" alt="Thumbnail"> 
+                        <img src="assets/media/process-3.png" alt="Thumbnail"> 
                     </div>
                     <div class="content">
                         <span class="subtitle">Pain point three</span>
@@ -281,7 +286,7 @@
                 </div>
                 <div class="process-work content-reverse" data-sal="slide-left" data-sal-duration="1000" data-sal-delay="100">
                     <div class="thumbnail paralax-image">
-                        <img src="./Pearlyn_ Case Study Details_files/process-4.png" alt="Thumbnail">
+                        <img src="assets/media/process-4.png" alt="Thumbnail">
                     </div>
                     <div class="content">
                         <span class="subtitle">Pain point four</span>
@@ -292,12 +297,12 @@
                 
             </div>
             <ul class="shape-group-17 list-unstyled">
-                <li class="shape shape-1"><img src="./Pearlyn_ Case Study Details_files/bubble-24.png" alt="Bubble"></li>
-                <li class="shape shape-2"><img src="./Pearlyn_ Case Study Details_files/bubble-23.png" alt="Bubble"></li>
-                <li class="shape shape-3"><img src="./Pearlyn_ Case Study Details_files/line-4.png" alt="Line"></li>
-                <li class="shape shape-4"><img src="./Pearlyn_ Case Study Details_files/line-5.png" alt="Line"></li>
-                <li class="shape shape-5"><img src="./Pearlyn_ Case Study Details_files/line-4.png" alt="Line"></li>
-                <li class="shape shape-6"><img src="./Pearlyn_ Case Study Details_files/line-5.png" alt="Line"></li>
+                <li class="shape shape-1"><img src="assets/media/bubble-24.png" alt="Bubble"></li>
+                <li class="shape shape-2"><img src="assets/media/bubble-23.png" alt="Bubble"></li>
+                <li class="shape shape-3"><img src="assets/media/line-4.png" alt="Line"></li>
+                <li class="shape shape-4"><img src="assets/media/line-5.png" alt="Line"></li>
+                <li class="shape shape-5"><img src="assets/media/line-4.png" alt="Line"></li>
+                <li class="shape shape-6"><img src="assets/media/line-5.png" alt="Line"></li>
             </ul>
         </section>
 
@@ -314,7 +319,7 @@
                     <div class="col-lg-4 col-sm-8" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
                         <div class="counterup-progress counterup-style-2">
                             <!-- <div class="icon">
-                                <img src="./Pearlyn_ Case Study Details_files/icon-10.png" alt="Apple">
+                                <img src="assets/media/icon-10.png" alt="Apple">
                             </div> -->
                             <div class="count-number h2">
                                 <!-- <span class="symbol">$</span>
@@ -328,7 +333,7 @@
                     <div class="col-lg-4 col-sm-8 mt--90 mt_md--0" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
                         <div class="counterup-progress counterup-style-2">
                             <!-- <div class="icon">
-                                <img src="./Pearlyn_ Case Study Details_files/icon-11.png" alt="Apple">
+                                <img src="assets/media/icon-11.png" alt="Apple">
                             </div> -->
                             <div class="count-number h2">
                                 <!-- <span class="number count" data-count="30">30</span> -->
@@ -340,7 +345,7 @@
                     <!-- <div class="col-lg-4 col-sm-8" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                         <div class="counterup-progress counterup-style-2">
                             <div class="icon">
-                                <img src="./Pearlyn_ Case Study Details_files/icon-12.png" alt="Apple">
+                                <img src="assets/media/icon-12.png" alt="Apple">
                             </div>
                             <div class="count-number h2">
                                 <span class="number count" data-count="70">70</span>
@@ -352,7 +357,7 @@
                     <div class="col-lg-3 col-sm-6 mt--90 mt_md--0" data-sal="slide-up" data-sal-duration="800" data-sal-delay="400">
                         <div class="counterup-progress counterup-style-2">
                             <div class="icon">
-                                <img src="./Pearlyn_ Case Study Details_files/apple-black.png" alt="Apple">
+                                <img src="assets/media/apple-black.png" alt="Apple">
                             </div>
                             <div class="count-number h2">
                                 <span class="number count" data-count="64">64</span>
@@ -476,12 +481,15 @@
                             <!-- <p>Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart. together for the first time. We provide elegant solutions.</p> -->   
                         </div>
                         <div class="about-expert">
-                            <div class="thumbnail paralax-image">
-                                <img src="./Pearlyn_ Personal Portfolio_files/LEC-discover1.png" alt="Thumbnail">
-                                <div class="popup-video">
-                                    <!-- <a href="https://www.youtube.com/watch?v=1iIZeIy7TqM" class="play-btn popup-youtube"><i class="fas fa-play"></i></a> -->
+                            <div class="project-grid project-style-2">
+                                <div class="thumbnail">
+                                    <a href="">
+                                        <img src="assets/media/LEC-discover1.png" alt="project">
+                                    </a>
+                                    <img class="modal-thumb" src="assets/media/LEC-discover1.png" alt="project">
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div> 
@@ -530,10 +538,12 @@
                             <!-- <p>Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart. together for the first time. We provide elegant solutions.</p> -->   
                         </div>
                         <div class="about-expert">
-                            <div class="thumbnail paralax-image">
-                                <img src="./Pearlyn_ Personal Portfolio_files/LEC-discover2.png" alt="Thumbnail">
-                                <div class="popup-video">
-                                    <!-- <a href="https://www.youtube.com/watch?v=1iIZeIy7TqM" class="play-btn popup-youtube"><i class="fas fa-play"></i></a> -->
+                            <div class="project-grid project-style-2">
+                                <div class="thumbnail">
+                                    <a href="">
+                                        <img src="assets/media/LEC-discover2.png" alt="project">
+                                    </a>
+                                    <img class="modal-thumb" src="assets/media/LEC-discover2.png" alt="project">
                                 </div>
                             </div>
                         </div>
@@ -542,7 +552,7 @@
             </div> 
         </section>
 
-        <section class="section section-padding bg-color-light pb--70">
+        <section class="section bg-color-light pb--70">
             <div class="container">
                 <!-- <div class="section-heading mb--90">
                     <span class="subtitle">Discovery & Define</span>
@@ -586,10 +596,12 @@
                             <!-- <p>Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart. together for the first time. We provide elegant solutions.</p> -->   
                         </div>
                         <div class="about-expert">
-                            <div class="thumbnail paralax-image">
-                                <img src="./Pearlyn_ Personal Portfolio_files/LEC-discover3.png" alt="Thumbnail">
-                                <div class="popup-video">
-                                    <!-- <a href="https://www.youtube.com/watch?v=1iIZeIy7TqM" class="play-btn popup-youtube"><i class="fas fa-play"></i></a> -->
+                            <div class="project-grid project-style-2">
+                                <div class="thumbnail">
+                                    <a href="">
+                                        <img src="assets/media/LEC-discover3.png" alt="project">
+                                    </a>
+                                    <img class="modal-thumb" src="assets/media/LEC-discover3.png" alt="project">
                                 </div>
                             </div>
                         </div>
@@ -636,15 +648,16 @@
                             <h4 class="title">Result</h4>
                             <p>4 steps journey with prevalidation results in 5 mins to determine if a case is worth creating.</p>
                         </div>
-
                         <div class="about-expert">
-                            <div class="thumbnail paralax-image">
-                                <img src="./Pearlyn_ Personal Portfolio_files/compare loan.png" alt="Thumbnail">
-                            <div class="popup-video">
-                                    <!-- <a href="https://www.youtube.com/watch?v=1iIZeIy7TqM" class="play-btn popup-youtube"><i class="fas fa-play"></i></a> -->
+                            <div class="project-grid project-style-2">
+                                <div class="thumbnail">
+                                    <a href="">
+                                        <img src="assets/media/LEC-design1.png" alt="project">
+                                    </a>
+                                    <img class="modal-thumb" src="assets/media/LEC-design1.png" alt="project">
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                </div> 
             </div>
         </section>
 
@@ -673,14 +686,16 @@
                                 <li>Users are able to better manage and prioritise their cases.</li>
                                 <li>There is no need to track & email separately.</li>
                             </ul></p>
-                        <div class="about-expert">
-                            <div class="thumbnail paralax-image" style="will-change: transform;">
-                                <img src="./Pearlyn_ Personal Portfolio_files/design 3.png" alt="Thumbnail">
-                                <!-- <div class="popup-video">
-                                    <a href="https://www.youtube.com/watch?v=1iIZeIy7TqM" class="play-btn popup-youtube"><i class="fas fa-play"></i></a>
-                                </div> -->
-                            </div>
-                        </div>
+                            <!-- <div class="about-expert">
+                                <div class="project-grid project-style-2">
+                                    <div class="thumbnail">
+                                        <a href="">
+                                            <img src="assets/media/compare loan.png" alt="project">
+                                        </a>
+                                        <img class="modal-thumb" src="assets/media/compare loan.png" alt="project">
+                                    </div>
+                                </div>
+                            </div> -->
                     </div>
                 </div>
             </div>     
@@ -709,7 +724,7 @@
                         </div>
                         <div class="about-expert">
                             <div class="thumbnail paralax-image" style="will-change: transform;">
-                                <img src="./Pearlyn_ Personal Portfolio_files/design 4.png" alt="Thumbnail">
+                                <img src="assets/media/design 4.png" alt="Thumbnail">
                                 <!-- <div class="popup-video">
                                     <a href="https://www.youtube.com/watch?v=1iIZeIy7TqM" class="play-btn popup-youtube"><i class="fas fa-play"></i></a>
                                 </div> -->
@@ -755,29 +770,17 @@
                         <h2 class="title">Think I'm a good fit?</h2>
                         <a href="https://new.axilthemes.com/demo/template/Pearlyn/contact.html" class="axil-btn btn-large btn-fill-white">Contact me</a>
                     </div>
-                    <div class="thumbnail">
-                        <div class="larg-thumb" data-sal="zoom-in" data-sal-duration="600" data-sal-delay="100">
-                            <img class="paralax-image" src="./Pearlyn_ Case Study Details_files/chat-group.png" alt="Chat">
-                        </div>
-                        <ul class="list-unstyled small-thumb">
-                            <li class="shape shape-1" data-sal="slide-right" data-sal-duration="800" data-sal-delay="400">
-                                <img class="paralax-image" src="./Pearlyn_ Case Study Details_files/laptop-poses.png" alt="Laptop">
-                            </li>
-                            <li class="shape shape-2" data-sal="slide-left" data-sal-duration="800" data-sal-delay="300">
-                                <img class="paralax-image" src="./Pearlyn_ Case Study Details_files/bill-pay.png" alt="Bill">
-                            </li>
-                        </ul>
-                    </div>
+
                 </div>
             </div>
             <ul class="list-unstyled shape-group-9">
-                <li class="shape shape-1"><img src="./Pearlyn_ Case Study Details_files/bubble-12.png" alt="Comments"></li>
-                <li class="shape shape-2"><img src="./Pearlyn_ Case Study Details_files/bubble-16.png" alt="Comments"></li>
-                <li class="shape shape-3"><img src="./Pearlyn_ Case Study Details_files/bubble-13.png" alt="Comments"></li>
-                <li class="shape shape-4"><img src="./Pearlyn_ Case Study Details_files/bubble-14.png" alt="Comments"></li>
-                <li class="shape shape-5"><img src="./Pearlyn_ Case Study Details_files/bubble-16.png" alt="Comments"></li>
-                <li class="shape shape-6"><img src="./Pearlyn_ Case Study Details_files/bubble-15.png" alt="Comments"></li>
-                <li class="shape shape-7"><img src="./Pearlyn_ Case Study Details_files/bubble-16.png" alt="Comments"></li>
+                <li class="shape shape-1"><img src="assets/media/bubble-12.png" alt="Comments"></li>
+                <li class="shape shape-2"><img src="assets/media/bubble-16.png" alt="Comments"></li>
+                <li class="shape shape-3"><img src="assets/media/bubble-13.png" alt="Comments"></li>
+                <li class="shape shape-4"><img src="assets/media/bubble-14.png" alt="Comments"></li>
+                <li class="shape shape-5"><img src="assets/media/bubble-16.png" alt="Comments"></li>
+                <li class="shape shape-6"><img src="assets/media/bubble-15.png" alt="Comments"></li>
+                <li class="shape shape-7"><img src="assets/media/bubble-16.png" alt="Comments"></li>
             </ul>
         </section>
 
@@ -876,7 +879,7 @@
                                     <li><a href="https://new.axilthemes.com/demo/template/Pearlyn/terms-of-use.html">Terms of Use</a></li>
                                 </ul>
                             </div> -->
-                        </div>
+                        <!-- </div> -->
                     </div>
                 </div>
             </div>
@@ -935,25 +938,26 @@
         </div>
     </div>
 
+
     <!-- Jquery Js -->
-    <script src="./Pearlyn_ Case Study Details_files/jquery-3.6.0.min.js.download"></script>
-    <script src="./Pearlyn_ Case Study Details_files/bootstrap.min.js.download"></script>
-    <script src="./Pearlyn_ Case Study Details_files/isotope.pkgd.min.js.download"></script>
-    <script src="./Pearlyn_ Case Study Details_files/imagesloaded.pkgd.min.js.download"></script>
-    <script src="./Pearlyn_ Case Study Details_files/odometer.min.js.download"></script>
-    <script src="./Pearlyn_ Case Study Details_files/jquery-appear.js.download"></script>
-    <script src="./Pearlyn_ Case Study Details_files/slick.min.js.download"></script>
-    <script src="./Pearlyn_ Case Study Details_files/sal.js.download"></script>
-    <script src="./Pearlyn_ Case Study Details_files/jquery.magnific-popup.min.js.download"></script>
-    <script src="./Pearlyn_ Case Study Details_files/js.cookie.js.download"></script>
-    <script src="./Pearlyn_ Case Study Details_files/jquery.style.switcher.js.download"></script>
-    <script src="./Pearlyn_ Case Study Details_files/jquery.countdown.min.js.download"></script>
-    <script src="./Pearlyn_ Case Study Details_files/tilt.js.download"></script>
-    <script src="./Pearlyn_ Case Study Details_files/green-audio-player.min.js.download"></script>
-    <script src="./Pearlyn_ Case Study Details_files/jquery.nav.js.download"></script>
+    <script src="assets/js/jquery-3.6.0.min.js.download"></script>
+    <script src="assets/js/bootstrap.min.js.download"></script>
+    <script src="assets/js/isotope.pkgd.min.js.download"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js.download"></script>
+    <script src="assets/js/odometer.min.js.download"></script>
+    <script src="assets/js/jquery-appear.js.download"></script>
+    <script src="assets/js/slick.min.js.download"></script>
+    <script src="assets/js/sal.js.download"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js.download"></script>
+    <script src="assets/js/js.cookie.js.download"></script>
+    <script src="assets/js/jquery.style.switcher.js.download"></script>
+    <script src="assets/js/jquery.countdown.min.js.download"></script>
+    <script src="assets/js/tilt.js.download"></script>
+    <script src="assets/js/green-audio-player.min.js.download"></script>
+    <script src="assets/js/jquery.nav.js.download"></script>
 
     <!-- Site Scripts -->
-    <script src="./Pearlyn_ Case Study Details_files/app.js.download"></script>
+    <script src="assets/js/app.js.download"></script>
 
 
 </body></html>
