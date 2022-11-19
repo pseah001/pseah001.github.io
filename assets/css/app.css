@@ -9405,6 +9405,10 @@ body.op-modal-open {
     color: var(--dark-title-light);
 }
 
+.active-dark-mode lh {
+    color: var(--dark-body-text);
+}
+
 .active-dark-mode ul li, .active-dark-mode ol li {
     color: var(--dark-body-text);
 }
